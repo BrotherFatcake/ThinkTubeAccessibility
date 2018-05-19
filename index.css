@@ -1,0 +1,74 @@
+body    {
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.submitForm {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input:focus, button:focus, a:focus, img:focus {
+    outline: 2px dashed #06e2ff;
+    -moz-appearance: none !important;
+  }
+
+  button::-moz-focus-outer  {
+      border: 2px;
+  }
+
+fieldset, legend {
+    border-width: 0px;
+    font-size: 0px;
+}
+
+.inputSearch    {
+    width: 100%;
+}
+
+input, button{
+    height: 25px;
+    margin-left: 10px;
+}
+
+input, ::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input{
+    width: 300px;   
+    padding-left: 5px; 
+    color: black !important;
+    background-color:#ffffff !important;
+    -moz-appearance: none !important;
+}
+
+::placeholder {
+    color: #4E5A64;
+}
+
+button{
+    margin-top: 3px;
+    width: 200px;
+    background-color: #b9b9b7;
+    font-size: 18px;
+    color: black;
+}
+
+span, img,{
+    margin: 5px;
+}
+
+.result {
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.videoImage {
+    height: 100px;
+    width: 150px;
+}
